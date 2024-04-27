@@ -23,7 +23,7 @@ import subprocess
 
 class RefacerMode(Enum):
      CPU, CUDA, COREML, TENSORRT = range(1, 5)
-
+# This is test
 class Refacer:
     def __init__(self,force_cpu=False,colab_performance=False):
         self.first_face = False
